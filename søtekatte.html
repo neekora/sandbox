@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        section {
+            background-image: url(bakgrunn.jpg);
+            background-size: cover;
+            width: 100vw;
+            height: 100vh;
+          
+        }
+        .backgroundImage{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        .header-section h1 {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            padding-top: 30vh;
+            font-style: italic;
+        }
+    </style>
+
+</head>
+<body>
+    <a href ="index.html">KATT</a>
+    <main>
+        <section class="header-section">
+            <h1> Dette alle mine favorit kattetusser :3</h1>
+            <img class="backgroundImage" src="bakgrunn.jpg" alt="">
+        </section>
+        <img src="https://i.pinimg.com/736x/1c/98/18/1c98184e9cd4152aca351d4c5d8adab5.jpg" alt="eevee">
+    </main>
+</body>
+</html>
